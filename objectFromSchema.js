@@ -1,5 +1,5 @@
 /**
- * Traverses JSON schema tree and creates empt Javascript object
+ * Traverses JSON schema tree and creates empty Javascript object
  * http://json-schema.org/
  * http://spacetelescope.github.io/understanding-json-schema/index.html
  *
