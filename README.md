@@ -27,8 +27,10 @@ In case when request doesn’t pass validation you may need to create empty but 
 Usage
 -----
 ```
-var ajaxSchema = JSON.parse(fs.readFileSync(ajaxSchemaPath)),
-  ajaxReqEmpty = objectFromSchema(ajaxSchema);
+var fs = require('fs'),
+    objectFromSchema = require('./objectFromSchema.js'),
+    ajaxSchema = JSON.parse(fs.readFileSync('./ajax_schema.json')),
+    ajaxRequestEmpty = objectFromSchema.objectFromSchema(ajaxSchema);
 
 ```
 
