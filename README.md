@@ -9,13 +9,14 @@ Node module. To install just copy to your project.
 Reading
 --------
 http://json-schema.org/
+
 http://spacetelescope.github.io/understanding-json-schema/index.html
 
 Use case
 --------
 JSON schema validation can be used during AJAX communication on a server to sanitize incoming JSON data.
 
-Having wrong request object structure can easily crush your server. To prevent this you need to check every property in the request object if it is present and of valid type.
+Having wrong request object structure can easily crash your server. To prevent this you need to check every property in the request object if it is present and of valid type.
 
 For JSON schema validation I'm using https://github.com/geraintluff/tv4.
 
