@@ -2,7 +2,7 @@ objectFromSchema
 ================
 
 Traverses JSON schema tree and creates empty Javascript object with only required properties.
-Doesn't support schema references and dependencies.
+Doesn't support schema references and dependencies. Requires lodash.
 
 Node module. To install just copy to your project.
 
