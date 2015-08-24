@@ -28,9 +28,9 @@ Usage
 -----
 ```
 var fs = require('fs'),
-    objectFromSchema = require('./objectFromSchema.js'),
+    objectFromSchema = require('./objectFromSchema.js').objectFromSchema,
     ajaxSchema = JSON.parse(fs.readFileSync('./ajax_schema.json')),
-    ajaxRequestEmpty = objectFromSchema.objectFromSchema(ajaxSchema);
+    ajaxRequestEmpty = objectFromSchema(ajaxSchema);
 
 ```
 
