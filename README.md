@@ -20,7 +20,7 @@ Having wrong request object structure can easily crash your server. To prevent t
 
 For JSON schema validation I'm using https://github.com/geraintluff/tv4.
 
-For schema creation http://www.jsonschema.net, but it is not perfect. Better create schema manually.
+For schema creation http://www.jsonschema.net, but it is not perfect. Better to create schema manually.
 
 In case when request doesn’t pass validation you may need to create empty but valid request object, initialize it and continue to process the request. This is what this module for.
 
